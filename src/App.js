@@ -1,8 +1,9 @@
 import React from 'react';
-import { Text } from 'react-native';
+import { Stylesheet, Text, View } from 'react-native';
+import { Home, Start } from './pages';
 
 const App = () => {
-    return <Text > Welcome to MTB App < /Text>;
+    return <Start / > ;
 };
 
 export default App;
