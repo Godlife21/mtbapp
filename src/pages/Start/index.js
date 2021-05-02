@@ -1,11 +1,15 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import { Stylesheet, Text, View } from 'react-native';
+import { Logo } from '../../assets';
 
 const Start = () => {
     return ( <
         View style = { styles.page } >
         <
-        Text > Welcome to MTB App < /Text>{' '} <
+        Logo / >
+        <
+        Text > Welcome to MTB App < /Text> <
         /View>
     );
 };

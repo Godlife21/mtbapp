@@ -1,8 +1,14 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
-import { Stylesheet, Text, View } from 'react-native';
+import { Text, View } from 'react-native';
 
 const Home = () => {
-    return <Text > Home < /Text>;
+    return ( <
+        View >
+        <
+        Text > Home < /Text> <
+        /View>
+    );
 };
 
 export default Home;
